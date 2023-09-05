@@ -1,0 +1,60 @@
+{
+  "name": "Test Component Best Practices",
+  "projectId": "e9f4c727-f502-4baf-99f4-cffec0f4ecbb",
+  "description": "Demonstration of building Library components in UiPath",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "23.6.0-preview",
+    "UiPath.Testing.Activities": "23.6.0-preview",
+    "UiPath.UIAutomation.Activities": "23.6.1-preview",
+    "UiPath.WebAPI.Activities": "1.16.2"
+  },
+  "webServices": [
+    {
+      "namespace": "UiPathOrchestrator",
+      "serviceDocument": "Services\\UiPathOrchestrator.json",
+      "webDocumentUri": "https://cloud.uipath.com/silverincus/SilverUS/orchestrator_/swagger/v16.0/swagger.json",
+      "uniqueReference": "EOXXcxcymKZ0zkoqK0GjBKx3l+iviUDg4GyFplHoos4="
+    }
+  ],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.6.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Portable"
+}
